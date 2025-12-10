@@ -1,4 +1,5 @@
 import { StyleSheet, Text, View } from 'react-native';
+import { Fonts, FontSizes } from '@/constants/fonts';
 
 export default function HomeScreen() {
   return (
@@ -15,7 +16,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   title: {
-    fontSize: 24,
-    fontWeight: 'bold',
+    fontFamily: Fonts.bold,
+    fontSize: FontSizes.extraLarge,
   },
 });
