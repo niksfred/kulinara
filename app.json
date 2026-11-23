@@ -1,17 +1,27 @@
 {
   "expo": {
-    "name": "Culina",
-    "slug": "Culina",
+    "name": "Kulinara",
+    "slug": "Kulinara",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "culina",
+    "scheme": "kulinara",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "kulinara-app",
+      "infoPlist": {
+        "NSCameraUsageDescription": "Allow access to the camera to capture grocery photos.",
+        "NSPhotoLibraryUsageDescription": "Allow access to your photo library to select grocery photos.",
+        "NSPhotoLibraryAddUsageDescription": "Allow saving photos used for grocery classification."
+      }
     },
     "android": {
+      "permissions": [
+        "CAMERA",
+        "READ_MEDIA_IMAGES"
+      ],
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE",
         "foregroundImage": "./assets/images/android-icon-foreground.png",
@@ -38,7 +48,12 @@
             "backgroundColor": "#000000"
           }
         }
-      ]
+      ],
+      "@react-native-community/datetimepicker",
+      "expo-sqlite",
+      "expo-notifications",
+      "expo-font",
+      "expo-web-browser"
     ],
     "experiments": {
       "typedRoutes": true,
