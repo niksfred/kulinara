@@ -8,9 +8,15 @@ An iOS-first smart kitchen experiment built with React Native and Expo. The idea
 
 I wanted this app to make everyday life easier. In practice, I think the workflow added too much friction: take a photo, wait for recognition, review the results, correct the items and dates, and then keep the inventory up to date as food gets used or thrown away.
 
+My own shopping trips made that friction clear. I would put products in the cart, move them into bags, and then, once home, take them out and arrange them so they were spread out and visible enough for a photo before finally putting them in the fridge or cupboards. It felt like handling the same groceries over and over again. The app added another step right when I wanted to finish unpacking.
+
 Photo recognition could help with the first step, but it could not remove the ongoing work of maintaining an accurate picture of the kitchen. Estimated expiration dates also needed judgment and correction. The app risked becoming another list to manage, rather than something that quietly saved time.
 
 For me, that made the experience too cumbersome for the value it offered. This is my assessment of the experiment, rather than a conclusion from a user study. The useful lesson was that reducing typing is only one part of reducing effort; the whole daily workflow has to be easier.
+
+I can imagine the idea working better with store app integrations that could send a digital receipt and use it to create the item list. That would capture the purchase without asking me to arrange everything for another photo, although keeping track of what gets consumed would still need solving.
+
+One experience I really liked was shopping at a Kaufland store here in Bulgaria: I could pick up a handheld scanner, scan items as I took them, and then go to self-checkout. The scanning fitted into what I was already doing. That is closer to the kind of convenience I wanted Kulinara to provide. Receipt integration is a possible direction, rather than a feature implemented in this prototype.
 
 ## What the prototype contains
 
